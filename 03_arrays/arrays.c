@@ -62,29 +62,29 @@
 //         printf("pass %i\n", pass);
 //         printf("fail %i\n", fail);
 //     }
-// }
+//}
 
-// void main()
-// {
+void main()
+{
 
-//     int score[] = {76, 92, 83, 80, 40, 35, 37, 66, 58, 43, 56, 96, 65, 64, 47, 89};
-//     int pass = 0, fail = 0;
-//     for (int x = 0; x <= 16; x++)
-//     {
-//         printf("This is posion %i,%i\n", x, score[x]);
-//         if (score[x] >= 60)
-//         {
-//             printf("pass\n");
-//             pass = pass + 1;
-//         }
-//         else
-//         {
-//             printf("fail\n");
-//             fail = fail + 1;
-//         }
-//     }
-//     printf("After the loop \n");
-//     printf("pass %i\n", pass);
-//     printf("fail %i\n", fail);
-// }
+    int score[] = {76, 92, 83, 80, 40, 35, 37, 66, 58, 43, 56, 96, 65, 64, 47, 89};
+    int pass = 0, fail = 0;
+    for (int x = 0; x <= 16; x++)
+    {
+        printf("This is posion %i,%i\n", x, score[x]);
+        if (score[x] >= 60)
+        {
+            printf("pass\n");
+            pass = pass + 1;
+        }
+        else
+        {
+            printf("fail\n");
+            fail = fail + 1;
+        }
+    }
+    printf("After the loop \n");
+    printf("pass %i\n", pass);
+    printf("fail %i\n", fail);
+}
 
