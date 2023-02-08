@@ -11,7 +11,7 @@ int main()
 
     // Open the existing file using fopen()
     // write mode using 'W' attribute
-    filepointer=fopen("file1.c","w");
+    filepointer=fopen("file1.c","a");
 
     // check if this filepointer is null
     // which may be if the file does not exist
